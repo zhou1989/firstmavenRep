@@ -8,7 +8,7 @@ public class Test {
     @Resource
     Person p;
     private String getName(){
-        String name  = p.getName();
-        return name;
+        String names  = p.getName();
+        return names;
     }
 }
