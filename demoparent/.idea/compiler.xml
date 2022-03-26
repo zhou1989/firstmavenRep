@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="child01" />
+        <module name="child02" />
+        <module name="child03" />
+        <module name="core" />
+        <module name="coremoulde" />
+        <module name="demo" />
+        <module name="functionsapp" />
+        <module name="springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="child01" target="1.8" />
+      <module name="child02" target="1.8" />
+      <module name="child03" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="coremoulde" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demoparent" target="1.8" />
+      <module name="functionsapp" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
+      <module name="springbootmain" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
