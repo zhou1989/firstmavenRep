@@ -85,3 +85,24 @@ public class HttpClientTool {
         }
     }
 }
+
+
+//使用实例:
+//    GET请求:
+//    List<NameValuePair> parametersBody = new ArrayList();
+//    parametersBody.add(new BasicNameValuePair("userId", "admin"));
+//    String result = HttpClientUtil.getRequest("http://www.test.com/user",parametersBody);
+//
+//    POST请求:
+//        List<NameValuePair> parametersBody = new ArrayList();
+//        parametersBody.add(new BasicNameValuePair("username", "admin"));
+//        parametersBody.add(new BasicNameValuePair("password", "123456"));
+//        String result = HttpClientUtil.postForm("http://www.test.com/login",parametersBody);
+//
+//    POST请求（JSON形式）:
+//        Map<String,String> map = new HashMap<>();
+//        map.put("username", "admin");
+//        map.put("password", "123456");
+//        Gson gson = new Gson();
+//        String json = gson.toJson(map, new TypeToken<Map<String, String>>() {}.getType());
+//        String result = HttpClientUtil.postJSON("http://www.test.com/login", json);
