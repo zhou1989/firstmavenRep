@@ -6,10 +6,8 @@ import org.apache.commons.codec.Charsets;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
@@ -24,17 +22,17 @@ import java.util.Map;
 
 public class HttpClientUtils {
     public void sendRequest(String url) throws IOException,URISyntaxException{
+
         HttpClient client = HttpClientBuilder.create().build();
         // POST请求
         HttpPost post = new HttpPost(url);
         // GET请求，URL中带请求参数
         HttpGet get = new HttpGet(url);
 
-        List<NameValuePair> list = new ArrayList<>();
-        list.add(new BasicNameValuePair("username", "admin"));
-        list.add(new BasicNameValuePair("password", "123456"));
-
 //        普通形式：
+//        List<NameValuePair> list = new ArrayList<>();
+//        list.add(new BasicNameValuePair("username", "admin"));
+//        list.add(new BasicNameValuePair("password", "123456"));
         // GET请求方式
         // 由于GET请求的参数是拼装在URL后方，所以需要构建一个完整的URL，再创建HttpGet实例
 //        URIBuilder uriBuilder = new URIBuilder("http://www.baidu.com");
