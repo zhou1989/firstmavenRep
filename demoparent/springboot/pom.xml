@@ -15,4 +15,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot</name>
 
+	<dependencies>
+
+	</dependencies>
+
 </project>
