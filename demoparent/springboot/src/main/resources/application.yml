@@ -1,21 +1,78 @@
+#配置公告路径
 server:
+   servlet:
+     context-path: /springboot
    port: 8081
-
+   max-http-header-size: 102400
 spring:
+  #配置接口超时时间
+  mvc:
+    async:
+      request-timeout: 50000
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+#  配置数据源
   datasource:
-    ds1:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      username: amlbst
-      password: 123456
-      jdbc-url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-      type: com.alibaba.druid.pool.DruidDataSource
-
-    ds2:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      username: amlbht
-      password: 123456
-      jdbc-url: jdbc:mysql://localhost:3306/amlbht_fat?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-      type: com.alibaba.druid.pool.DruidDataSource
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true
+           type: com.alibaba.druid.pool.DruidDataSource
+           url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+           username: amlbst
+           password: 123456
+           driver-class-name: com.mysql.jdbc.Driver
+  mybatis:
+     mapper-locations: classpath:mapping/ds1/*.xml
+     config-location: classpath:mybatis-config.xml
+#  datasource:
+#    xa:
+#    dataSourceClassName: com.mysql.cj.jdbc.MysqlXADataSource
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+#    username: amlbst
+#    password: 123456      #数据库连接池拿连接时的有效性测试
+#配置redis缓存
+#  redis:
+#    password: 123456
+#    timeout: 30s
+#    cluster:
+#      nodes:
+#        - localhost1:8088
+#        - localhost1:8089
+#        - localhost1:8010
+#    lettuce:  pool:    max-idle: 100  # 连接池中的最大空闲连接 默认8
+#    min-idle: 20   # 连接池中的最小空闲连接 默认0
+#    max-active: 150  # 连接池最大连接数 默认8 ，负数表示没有限制
+#    max-wait: -1ms    # 连接池最大阻塞等待时间（使用负值表示没有限制） 默认-1
+#ds1:
+#datasource:
+#   driverClassName: com.mysql.cj.jdbc.Driver
+#   url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+#   username: amlbst
+#   password: 123456      #数据库连接池拿连接时的有效性测试
+#   testOnBorrow: true      #测试时间间隔
+#   validation-interval: 3000      #测试使用的SQL语句
+#   validation-query: select 1      #连接池初始化创建的连接数
+#   initial-size: 10      #后台线程扫描连接池里没有正在使用的连接
+#   test-while-idle: true      #检查空闲连接的时间间隔(单位：毫秒)
+#   time-between-eviction-runs-millis: 3000      #连接池中连接池可空闲的时间(单位：毫秒)
+#   min-evictable-idle-time-millis: 120000    #mabatis配置
+#mybatis:
+#   mapper-locations: classpath:mapping/ds1/*.xml
+#   config-location: classpath:mybatis-config.xml
+#    ds2:
+#      datasource:
+#         driverClassName: com.mysql.cj.jdbc.Driver
+#         url: jdbc:mysql://localhost:3306/amlbht_fat?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+#         username: amlbht
+#         password: 123456      #数据库连接池拿连接时的有效性测试
+#         testOnBorrow: true      #测试时间间隔
+#         validation-interval: 3000      #测试使用的SQL语句
+#         validation-query: select 1      #连接池初始化创建的连接数
+#         initial-size: 10      #后台线程扫描连接池里没有正在使用的连接
+#         test-while-idle: true      #检查空闲连接的时间间隔(单位：毫秒)
+#         time-between-eviction-runs-millis: 3000      #连接池中连接池可空闲的时间(单位：毫秒)
+#         min-evictable-idle-time-millis: 120000    #mabatis配置
+#      mybatis:
+#         mapper-locations: classpath:mapping/ds1/*.xml
+#         config-location: classpath:mybatis-config.xml
