@@ -25,7 +25,7 @@
       <module name="demo" target="1.8" />
       <module name="demoparent" target="1.8" />
       <module name="functionsapp" target="1.8" />
-      <module name="springboot" target="1.8" />
+      <module name="springboot" target="1.5" />
       <module name="springbootdemo" target="1.8" />
       <module name="springbootmain" target="1.8" />
     </bytecodeTargetLevel>

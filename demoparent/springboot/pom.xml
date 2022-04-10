@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<artifactId>demo-parent</artifactId>
-		<groupId>com.zdl.maven01</groupId>
-		<version>1.0-SNAPSHOT</version>
-	    <relativePath/>
-	</parent>
+	<!--<parent>-->
+		<!--<artifactId>demo-parent</artifactId>-->
+		<!--<groupId>com.zdl.maven01</groupId>-->
+		<!--<version>1.0-SNAPSHOT</version>-->
+	    <!--<relativePath/>-->
+	<!--</parent>-->
 
 	<groupId>com.zdl</groupId>
 	<artifactId>springboot</artifactId>
