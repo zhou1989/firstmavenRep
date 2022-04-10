@@ -13,6 +13,15 @@ spring:
     multipart:
       max-file-size: 500MB
       max-request-size: 500MB
+  datasource:
+      name: druid
+      type: com.alibaba.druid.pool.DruidDataSource
+      druid:
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        password: 123456
+        url: jdbc:mysql://127.0.0.1:3306/amlbst_fat?useUnicode=true&characterEncoding=UTF-8
+        username: amlbst
 #  jta:
 #      atomikos:
 #        properties:
@@ -21,44 +30,42 @@ spring:
 #          default-jta-timeout: 10000
 #          enable-logging: true
   #  配置数据源
-  ds1:
-      datasource:
-        xa:
-          data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
-          driver-class-name: com.mysql.cj.jdbc.Driver
-          type: com.alibaba.druid.pool.DruidDataSource
-          url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-          username: amlbst
-          password: 123456
-      mybatis:
-         mapper-locations: classpath:mapping/ds1/*.xml
-         config-location: classpath:mybatis-config.xml
-
-  ds2:
-      datasource:
-        xa:
-          data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
-          driver-class-name: com.mysql.cj.jdbc.Driver
-          type: com.alibaba.druid.pool.DruidDataSource
-          url: jdbc:mysql://localhost:3306/amlbht_fat?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-          username: amlbht
-          password: 123456
-      mybatis:
-         mapper-locations: classpath:mapping/ds1/*.xml
-         config-location: classpath:mybatis-config.xml
-druid:
-  filters: stat, wall
-  maxActive: 20
-  initialSize: 1
-  maxWait: 60000
-  minIdle: 10
-  timeBetweenEvictionRunsMillis: 60000
-  minEvictableIdleTimeMillis: 300000
-  validationQuery: SELECT 1
-  testWhileIdle: true
-  testOnBorrow: false
-  testOnReturn: false
-  removeAbandoned: true
-  removeAbandonedTimeout: 1800
-  logAbandoned: false
+#  ds1:
+#      datasource:
+#          data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          type: com.alibaba.druid.pool.DruidDataSource
+#          url: jdbc:mysql://localhost:3306/amlbst_fat?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+#          username: amlbst
+#          password: 123456
+#      mybatis:
+#         mapper-locations: classpath:mapping/ds1/*.xml
+#         config-location: classpath:mybatis-config.xml
+#
+#  ds2:
+#      datasource:
+#          data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          type: com.alibaba.druid.pool.DruidDataSource
+#          url: jdbc:mysql://localhost:3306/amlbht_fat?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+#          username: amlbht
+#          password: 123456
+#      mybatis:
+#         mapper-locations: classpath:mapping/ds1/*.xml
+#         config-location: classpath:mybatis-config.xml
+#druid:
+#  filters: stat, wall
+#  maxActive: 20
+#  initialSize: 1
+#  maxWait: 60000
+#  minIdle: 10
+#  timeBetweenEvictionRunsMillis: 60000
+#  minEvictableIdleTimeMillis: 300000
+#  validationQuery: SELECT 1
+#  testWhileIdle: true
+#  testOnBorrow: false
+#  testOnReturn: false
+#  removeAbandoned: true
+#  removeAbandonedTimeout: 1800
+#  logAbandoned: false
 
