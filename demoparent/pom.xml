@@ -19,7 +19,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.9.RELEASE</version>
+        <version>2.1.13.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -34,20 +34,20 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!--分布式事物的依赖-->
+        <!--&lt;!&ndash;分布式事物的依赖&ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jta-atomikos</artifactId>
         </dependency>
 
-        <!--数据库连接池-->
+        <!--&lt;!&ndash;数据库连接池&ndash;&gt;-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.2</version>
         </dependency>
 
-        <!-- 启用注解读取配置文件支持 -->
+        <!--&lt;!&ndash; 启用注解读取配置文件支持 &ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -59,10 +59,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
@@ -75,7 +75,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!--&lt;!&ndash; lombok 相关依赖 &ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; lombok 相关依赖 &ndash;&gt;&ndash;&gt;-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -92,7 +92,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.29</version>
+            <version>8.0.16</version>
         </dependency>
 
         <dependency>
@@ -115,30 +115,30 @@
             <scope>test</scope>
         </dependency>
 
-        <!--httpclient-->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.5</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.11</version>
-        </dependency>
+        <!--&lt;!&ndash;httpclient&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.httpcomponents</groupId>-->
+            <!--<artifactId>httpclient</artifactId>-->
+            <!--<version>4.5.5</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>commons-codec</groupId>-->
+            <!--<artifactId>commons-codec</artifactId>-->
+            <!--<version>1.11</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.5</version>
         </dependency>
-        <!--&lt;!&ndash; alibaba的fastjson工具 &ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; alibaba的fastjson工具 &ndash;&gt;&ndash;&gt;-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.56</version>
         </dependency>
 
-        <!--&lt;!&ndash;微服务注册中心依赖&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;微服务注册中心依赖&ndash;&gt;&ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -148,19 +148,19 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-dependencies</artifactId>
-            <version>${spring-cloud.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-dependencies</artifactId>-->
+            <!--<version>${spring-cloud.version}</version>-->
+            <!--<type>pom</type>-->
+            <!--<scope>import</scope>-->
+        <!--</dependency>-->
 
-        <!--&lt;!&ndash; SpringCloud Hystrix 微服务容错监控组件:断路器,依赖隔离,服务降级,服务监控 依赖 &ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; SpringCloud Hystrix 微服务容错监控组件:断路器,依赖隔离,服务降级,服务监控 依赖 &ndash;&gt;&ndash;&gt;-->
 
 
 
-        <!--&lt;!&ndash;添加feign依赖&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;添加feign依赖&ndash;&gt;&ndash;&gt;-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -168,6 +168,18 @@
         </dependency>
 
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
