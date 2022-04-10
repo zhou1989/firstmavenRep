@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/child01/child01.iml" filepath="$PROJECT_DIR$/child01/child01.iml" />
       <module fileurl="file://$PROJECT_DIR$/child02/child02.iml" filepath="$PROJECT_DIR$/child02/child02.iml" />
       <module fileurl="file://$PROJECT_DIR$/child03/child03.iml" filepath="$PROJECT_DIR$/child03/child03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/coremoulde/coremoulde.iml" filepath="$PROJECT_DIR$/coremoulde/coremoulde.iml" />
       <module fileurl="file://$PROJECT_DIR$/demoparent.iml" filepath="$PROJECT_DIR$/demoparent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
     </modules>
   </component>
 </project>

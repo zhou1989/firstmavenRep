@@ -10,10 +10,8 @@
         <module name="child02" />
         <module name="child03" />
         <module name="core" />
-        <module name="coremoulde" />
         <module name="demo" />
         <module name="functionsapp" />
-        <module name="springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

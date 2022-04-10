@@ -9,11 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>coremoulde</module>
         <module>child01</module>
         <module>child02</module>
         <module>child03</module>
-        <module>springboot</module>
     </modules>
 
     <parent>
