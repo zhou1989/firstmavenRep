@@ -15,13 +15,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="child01" target="1.8" />
-      <module name="child02" target="1.8" />
-      <module name="child03" target="1.8" />
+      <module name="child01" target="1.5" />
+      <module name="child02" target="1.5" />
+      <module name="child03" target="1.5" />
       <module name="core" target="1.8" />
       <module name="coremoulde" target="1.8" />
       <module name="demo" target="1.8" />
-      <module name="demoparent" target="1.8" />
+      <module name="demoparent" target="1.5" />
       <module name="functionsapp" target="1.8" />
       <module name="springboot" target="1.5" />
       <module name="springbootdemo" target="1.8" />
