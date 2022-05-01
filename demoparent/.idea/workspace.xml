@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839e970e-9e4a-49ee-950a-5af7b0b9836c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/child01/child01.iml" afterPath="$PROJECT_DIR$/child01/child01.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/child02/child02.iml" afterPath="$PROJECT_DIR$/child02/child02.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/child03/child03.iml" afterPath="$PROJECT_DIR$/child03/child03.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoparent.iml" afterPath="$PROJECT_DIR$/demoparent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +36,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="193" column="25" lean-forward="true" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
+            <state relative-caret-position="488">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -221,6 +207,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,14 +221,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -541,7 +527,8 @@
       <workItem from="1649292499483" duration="1976000" />
       <workItem from="1649510398683" duration="21127000" />
       <workItem from="1649599153382" duration="7773000" />
-      <workItem from="1651390463334" duration="269000" />
+      <workItem from="1651390463334" duration="391000" />
+      <workItem from="1651399511872" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="commit -m '第一次提交'">
       <created>1648303088966</created>
@@ -676,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1649606522465</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit -m 'web开发环境搭建'">
+      <created>1651390743623</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651390743623</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177733000" />
+    <option name="totallyTimeSpent" value="177895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +702,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29594272" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2586393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17764579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="183" column="18" lean-forward="false" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="617" column="17" lean-forward="false" selection-start-line="617" selection-start-column="17" selection-end-line="617" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,18 +848,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="483" column="7" lean-forward="true" selection-start-line="483" selection-start-column="7" selection-end-line="483" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test7.java" />
     <entry file="file://$PROJECT_DIR$/springboot/src/main/java/com/zdl/hj/transactionconfig/PlatformDataSourceConfig.java" />
     <entry file="jar://D:/maven/localRepository/org/springframework/boot/spring-boot-autoconfigure/2.1.13.RELEASE/spring-boot-autoconfigure-2.1.13.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
     <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/application-local.yml" />
@@ -891,50 +875,13 @@
     <entry file="file://$PROJECT_DIR$/coremoulde/src/main/java/com/zdl/core/model/pojo/Customer.java" />
     <entry file="file://$PROJECT_DIR$/coremoulde/src/main/java/com/zdl/core/model/HttpClientTool.java" />
     <entry file="file://$PROJECT_DIR$/coremoulde/src/main/java/com/zdl/core/model/HttpClientUtils.java" />
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Teat3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Teat3.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test4.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test5.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test6.java" />
     <entry file="file://$PROJECT_DIR$/transaction-logs/tmlog5.log" />
     <entry file="file://$PROJECT_DIR$/springboot/src/main/java/com/zdl/hj/SpringBootApplicationMain.java" />
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test.java" />
     <entry file="file://$PROJECT_DIR$/child03/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -959,50 +906,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/CrimIndicatorsCsnm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/ClpbusAccnew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/BbnmProvinceMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/ApiblkeacBalGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/CrimIndicatorsCsnm.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/Test2.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/ClpbusAccnew.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/BbnmProvinceMap.java" />
+    <entry file="file://$PROJECT_DIR$/child01/src/main/java/com/zdl/hj/javaapitest/ApiblkeacBalGen.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="193" column="25" lean-forward="true" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
+        <state relative-caret-position="488">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding />
         </state>
       </provider>
